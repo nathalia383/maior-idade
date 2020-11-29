@@ -1,0 +1,27 @@
+
+        {
+            int idade;
+            nome da string;
+            para (int i = 0; i <3; i ++)
+            {
+                Console.WriteLine ("Qual é o seu nome ?:");
+                nome = Console.ReadLine ();
+                Console.WriteLine ();
+                Console.WriteLine ("Qual a sua idade ?:");
+                idade = int.Parse (Console.ReadLine ());
+
+                se (idade> = 18)
+                {
+                    Console.WriteLine (nome + "Você é o / a mais velho / a");
+                    Console.WriteLine ();
+                }
+                outro
+                {
+                    Console.WriteLine (nome + "Você é o / a mais novo / a");
+                    Console.WriteLine ();
+                }
+            }
+            Console.ReadLine ();
+        }
+    }
+}
